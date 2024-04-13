@@ -1,0 +1,173 @@
+body{
+    background-image: url(images/weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand{
+    color: bisque;
+    font-family: "Lobster", sans-serif;
+}
+
+.nav-link{
+    color: white;
+}
+
+.cloud{
+    margin-bottom: -300px;
+}
+
+.cloud1{
+    width: 30%;
+    z-index: -99;
+}
+
+.cloud2{
+    margin-left: 500px;
+    padding-top: 150px;
+    z-index: -99;
+    width: 30%
+    
+}
+
+.animate__animated.animate__bounce{
+    animation-name: bounce;
+    animation-timing-function: linear;
+    --animate-duration: 2s;
+    --animate-delay: 0.9s;
+  }
+  
+  @keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+  }
+
+.h1{
+    margin-bottom: 80px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: bisque;
+    text-align: center;
+}
+
+.h-text{
+    font-size: 70px;
+}
+
+.box{
+    height: 600px;
+    width: 500px;
+    border: solid 2px white;
+    border-radius: 25px;
+    z-index: 99;
+    margin: auto;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(43, 41, 41, 0.165), rgba(43, 41, 41, 0.165));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-control{
+    background-color: transparent;
+    margin-bottom: 50px;
+    
+}
+
+.form-label{
+    color: white;
+    align-items: center;
+}
+.mb-3{
+    width: 450px;
+}
+
+.sub{
+    text-align: center;
+}
+
+.btn{
+    background-color: bisque;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    color: blanchedalmond;
+    background-image: linear-gradient(to right, rgba(33, 2, 2, 0.165), rgba(43, 41, 41, 0.165));
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.report{
+    background-image: linear-gradient(to right, rgba(22, 3, 3, 0.387), rgba(22, 3, 3, 0.387));
+    color: aliceblue;
+    z-index: 100;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25;
+    text-align: center;
+}
+
+.card{
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(22, 3, 3, 0.534), rgba(22, 3, 3, 0.534));
+    color: white;
+    padding: 10px;
+    border: solid 2px wheat;
+    border-radius: 15;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    -moz-transform : scale(1.2);
+    -webkit-transform : scale(1.2);
+    -o-transform : scale(1.2);
+    -ms-transform : scale(1.2);
+}
+
+.location{
+    font-weight: 900;
+}
+
+.location-text{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Lilita One", sans-serif;
+    font-style: normal;
+}
+
+.date-map{
+    height: 300px;
+    justify-content: center;
+}
+
+.map{
+    height: 280px;
+}
+
+.row2{
+    margin-top: 50px;
+}
+
+.extra{
+    margin-top: 30px;
+}
+
+.data{
+    font-weight: bolder;
+    font-size: 40px;
+}
